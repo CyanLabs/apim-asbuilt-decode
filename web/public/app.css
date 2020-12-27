@@ -1,0 +1,14 @@
+body {
+    padding-top: 5rem;
+}
+
+div.raw_output {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+}
+
+body.bootstrap-dark div.raw_output {
+    color: #4e4e4e;
+}

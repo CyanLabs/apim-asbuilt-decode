@@ -1,0 +1,10 @@
+version: "3"
+services:
+  apim-web:
+    build:
+      context: .
+      dockerfile: ${PWD}/web/Dockerfile
+    ports:
+      - 8000:8000
+    environment:
+      FLASK_ENV: development
